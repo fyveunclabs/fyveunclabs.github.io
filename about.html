@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About Us — FyveUnc Labs</title>
+    <meta name="description"
+        content="FyveUnc Labs started in 2023 as a small group of passionate problem solvers. We build software, grow brands, and create meaningful impact." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Syne:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./about.css">
+</head>
+
+<body>
+    <!-- Scroll progress indicator -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Mobile menu overlay -->
+    <div class="nav-mobile-overlay" id="mobile-menu" aria-hidden="true">
+        <a class="nav-mobile-link" href="./index.html">Home</a>
+        <a class="nav-mobile-link" href="./services.html">Services</a>
+        <a class="nav-mobile-link" href="./work.html">Work</a>
+        <a class="nav-mobile-link" href="./about.html">About Us</a>
+        <a class="nav-mobile-link" href="./contact.html">Contact</a>
+        <a class="btn-primary" href="./contact.html" style="width:fit-content;margin-top:auto">Let's Talk →</a>
+    </div>
+
+    <nav class="nav" id="nav">
+        <a class="nav-logo" href="./index.html" aria-label="FyveUnc Labs home">
+            <span>Fy</span><span class="logo-v">v</span><span>eUnc</span>
+            <span class="logo-labs">Labs</span>
+        </a>
+        <div class="nav-links" aria-label="Primary navigation">
+            <a class="nav-link" href="./index.html">Home</a>
+            <a class="nav-link" href="./services.html">Services</a>
+            <a class="nav-link" href="./work.html">Work</a>
+            <a class="nav-link active" href="./about.html">About Us</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+        </div>
+        <a class="btn-primary nav-cta" href="./contact.html">Let's Talk</a>
+        <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"
+            aria-controls="mobile-menu">
+            <span class="nav-hamburger-line"></span>
+            <span class="nav-hamburger-line"></span>
+            <span class="nav-hamburger-line"></span>
+        </button>
+    </nav>
+
+    <main>
+        <!-- ── About Hero ─────────────────────────────────────────────────── -->
+        <section class="section about-hero page-standard" id="about-hero" aria-labelledby="about-hero-heading">
+            <div class="container">
+                <div class="about-hero-grid">
+                    <div class="about-hero-copy" data-stagger="80">
+                        <p class="eyebrow reveal">About Us</p>
+                        <h1 class="about-hero-title reveal" id="about-hero-heading">
+                            We build with
+                            <span class="about-accent">Purpose.</span><br>
+                            Deliver with <span class="about-accent">Precision.</span><br>
+                            Scale with <span class="about-accent">Performance.</span>
+                        </h1>
+                        <p class="text-body reveal" style="max-width: 52ch; margin-top: var(--space-6);">
+                            FyveUnc Labs is the trade name of Mariana Trench Private Limited. Our idea started in 2023
+                            as a small group of passionate problem solvers. Today, we are a team of engineers from NITs
+                            and IIT Delhi, and a Chartered Accountant. Building software and marketing solutions that
+                            help businesses grow.
+                        </p>
+                        <div class="hero-actions reveal" style="margin-top: var(--space-10);">
+                            <a class="btn-primary" href="./contact.html" id="about-cta">
+                                Let's Build Something Great
+                                <span class="about-cta-dot">●</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about-hero-visual reveal">
+                        <div class="about-photo-card">
+                            <!-- Photo composition with overlapping elements -->
+                            <div class="about-photo-main">
+                                <div class="about-photo-frame">
+                                    <div class="about-photo-placeholder">
+                                        <div class="about-photo-silhouettes">
+                                            <!-- Three engineers/team silhouette illustration -->
+                                            <svg viewBox="0 0 360 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                <!-- Background gradient -->
+                                                <rect width="360" height="280" fill="url(#teamBg)"/>
+                                                <!-- Person 1 (left, back) -->
+                                                <ellipse cx="110" cy="120" rx="32" ry="32" fill="#2a2724"/>
+                                                <path d="M55 280 Q55 220 110 210 Q165 200 165 280Z" fill="#2a2724"/>
+                                                <!-- Person 2 (center, front) -->
+                                                <ellipse cx="185" cy="110" rx="36" ry="36" fill="#1A1816"/>
+                                                <path d="M120 280 Q125 210 185 200 Q245 190 250 280Z" fill="#1A1816"/>
+                                                <!-- Person 3 (right) -->
+                                                <ellipse cx="258" cy="118" rx="30" ry="30" fill="#3a3530"/>
+                                                <path d="M205 280 Q210 215 258 208 Q306 200 308 280Z" fill="#3a3530"/>
+                                                <!-- Laptop glow -->
+                                                <rect x="145" y="195" width="80" height="50" rx="4" fill="#F97B3B" opacity="0.15"/>
+                                                <rect x="150" y="198" width="70" height="42" rx="3" fill="#F97B3B" opacity="0.08"/>
+                                                <!-- Screen glow lines -->
+                                                <rect x="155" y="204" width="40" height="3" rx="1.5" fill="#F97B3B" opacity="0.5"/>
+                                                <rect x="155" y="210" width="55" height="3" rx="1.5" fill="#F97B3B" opacity="0.35"/>
+                                                <rect x="155" y="216" width="30" height="3" rx="1.5" fill="#F97B3B" opacity="0.25"/>
+                                                <!-- Orange accent circle -->
+                                                <circle cx="330" cy="40" r="40" fill="#F97B3B" opacity="0.12"/>
+                                                <circle cx="330" cy="40" r="24" fill="#F97B3B" opacity="0.1"/>
+                                                <!-- Defs -->
+                                                <defs>
+                                                    <radialGradient id="teamBg" cx="50%" cy="30%" r="70%">
+                                                        <stop offset="0%" stop-color="#3a3028"/>
+                                                        <stop offset="100%" stop-color="#1A1816"/>
+                                                    </radialGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Floating tag -->
+                            <div class="about-photo-tag">
+                                <span class="about-photo-tag-italic">Different minds.</span>
+                                <span class="about-photo-tag-italic">One mission.</span>
+                                <span class="about-photo-tag-accent">Infinite impact.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Our Story / Timeline ──────────────────────────────────────── -->
+        <section class="section section-dark about-story" id="about-story" aria-labelledby="story-heading">
+            <div class="container" data-stagger="80">
+                <div class="about-story-top">
+                    <div>
+                        <p class="eyebrow reveal">Our Story</p>
+                        <h2 class="section-heading reveal" id="story-heading">
+                            From an Idea in 2023<br>
+                            to Building <em style="color: var(--color-signal); font-style: italic;">What's Next</em>
+                        </h2>
+                    </div>
+                    <div class="about-story-desc reveal">
+                        <p class="text-body">
+                            What began as late-night discussions about building something of our own has now become a
+                            registered company with a bold mission.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline -->
+                <div class="about-timeline reveal">
+                    <div class="about-timeline-line" aria-hidden="true"></div>
+
+                    <div class="about-timeline-item">
+                        <div class="about-timeline-icon" aria-hidden="true">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M11 2C9 2 7.5 3.5 7.5 5.5C7.5 7 8.3 8.3 9.5 9L9 17H13L12.5 9C13.7 8.3 14.5 7 14.5 5.5C14.5 3.5 13 2 11 2Z" fill="currentColor" opacity="0.9"/>
+                                <path d="M8 14H14L14.5 17H7.5L8 14Z" fill="currentColor" opacity="0.6"/>
+                                <circle cx="11" cy="5.5" r="1.5" fill="var(--color-signal)"/>
+                            </svg>
+                        </div>
+                        <div class="about-timeline-year">2023</div>
+                        <div class="about-timeline-label">The Spark</div>
+                        <div class="about-timeline-desc">An idea born out of our love for technology, business, and impact.</div>
+                    </div>
+
+                    <div class="about-timeline-item">
+                        <div class="about-timeline-icon" aria-hidden="true">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <circle cx="11" cy="8" r="4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                <circle cx="6" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                <circle cx="16" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                <path d="M3 18C3 15.5 4.8 14 7 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M19 18C19 15.5 17.2 14 15 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M7 18C7 15.5 8.8 14 11 14C13.2 14 15 15.5 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="about-timeline-year">2023–2024</div>
+                        <div class="about-timeline-label">Foundation</div>
+                        <div class="about-timeline-desc">We came together, learned, built, and worked on real projects.</div>
+                    </div>
+
+                    <div class="about-timeline-item">
+                        <div class="about-timeline-icon" aria-hidden="true">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <polyline points="3,16 8,10 12,13 19,5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                <polyline points="15,5 19,5 19,9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                            </svg>
+                        </div>
+                        <div class="about-timeline-year">2024–2025</div>
+                        <div class="about-timeline-label">Growth</div>
+                        <div class="about-timeline-desc">Our team grew, so did our capabilities and the trust of our clients.</div>
+                    </div>
+
+                    <div class="about-timeline-item about-timeline-item--active">
+                        <div class="about-timeline-icon" aria-hidden="true">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                <path d="M11 3L13.5 8.5L19.5 9.3L15.2 13.4L16.3 19.5L11 16.7L5.7 19.5L6.8 13.4L2.5 9.3L8.5 8.5L11 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+                            </svg>
+                        </div>
+                        <div class="about-timeline-year">2025</div>
+                        <div class="about-timeline-label">A New Chapter</div>
+                        <div class="about-timeline-desc">Mariana Trench 5387 Private Limited is now wholly owned by us. FyveUnc Labs is our brand. The journey continues.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── 3Ps — Guiding Principles ──────────────────────────────────── -->
+        <section class="section about-3ps" id="about-3ps" aria-labelledby="principles-heading">
+            <div class="container">
+                <div class="about-3ps-grid">
+                    <!-- Left copy -->
+                    <div class="about-3ps-copy" data-stagger="80">
+                        <p class="eyebrow reveal">Our Guiding Principles</p>
+                        <h2 class="section-heading reveal" id="principles-heading">
+                            The 3Ps That Drive<br>Everything We Do
+                        </h2>
+                        <p class="text-body reveal" style="max-width: 44ch;">
+                            These aren't just words on a wall. They shape our decisions, our process, and the products we build.
+                        </p>
+                    </div>
+
+                    <!-- Center donut -->
+                    <div class="about-3ps-donut reveal" aria-hidden="true">
+                        <div class="about-donut-ring">
+                            <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="100" r="85" stroke="var(--color-rule)" stroke-width="30" fill="none"/>
+                                <circle cx="100" cy="100" r="85" stroke="var(--color-signal)" stroke-width="30" fill="none"
+                                    stroke-dasharray="534" stroke-dashoffset="134"
+                                    stroke-linecap="round"
+                                    transform="rotate(-90 100 100)"/>
+                                <circle cx="100" cy="100" r="85" stroke="var(--color-void)" stroke-width="20" fill="none"
+                                    stroke-dasharray="534" stroke-dashoffset="400"
+                                    stroke-linecap="round"
+                                    transform="rotate(-90 100 100)"/>
+                            </svg>
+                            <div class="about-donut-center">
+                                <span class="about-donut-label">3Ps</span>
+                                <span class="about-donut-sub">Our Promise</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right principles list -->
+                    <div class="about-3ps-list" data-stagger="100">
+                        <div class="about-principle reveal">
+                            <div class="about-principle-icon" aria-hidden="true">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="about-principle-title">Purpose</div>
+                                <p class="text-body" style="font-size: var(--text-sm);">We build things that solve real problems and create meaningful impact.</p>
+                            </div>
+                        </div>
+                        <div class="about-principle reveal">
+                            <div class="about-principle-icon" aria-hidden="true">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 16L10 4L16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                    <path d="M6 12H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="about-principle-title">Precision</div>
+                                <p class="text-body" style="font-size: var(--text-sm);">We believe in detail, clarity, and doing things the right way every time.</p>
+                            </div>
+                        </div>
+                        <div class="about-principle reveal">
+                            <div class="about-principle-icon" aria-hidden="true">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <rect x="3" y="13" width="3" height="4" rx="1" fill="currentColor" opacity="0.5"/>
+                                    <rect x="8.5" y="9" width="3" height="8" rx="1" fill="currentColor" opacity="0.75"/>
+                                    <rect x="14" y="5" width="3" height="12" rx="1" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="about-principle-title">Performance</div>
+                                <p class="text-body" style="font-size: var(--text-sm);">We measure success by results — ours and our clients'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── By the Numbers ────────────────────────────────────────────── -->
+        <section class="section section-dark about-numbers" id="about-numbers" aria-labelledby="numbers-heading">
+            <div class="container" data-stagger="80">
+                <p class="eyebrow reveal">By the Numbers</p>
+                <div class="about-stats-grid">
+                    <div class="about-stat reveal">
+                        <div class="about-stat-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="10" r="5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                <circle cx="7" cy="11" r="3.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                <circle cx="21" cy="11" r="3.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                <path d="M4 24C4 20.5 6.7 18 10 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M24 24C24 20.5 21.3 18 18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M9 24C9 20.7 11.2 18 14 18C16.8 18 19 20.7 19 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="about-stat-value">2023</div>
+                        <div class="about-stat-label">The year it all began</div>
+                    </div>
+                    <div class="about-stat reveal">
+                        <div class="about-stat-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <path d="M5 21L14 7L23 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                <rect x="8" y="16" width="12" height="5" fill="none"/>
+                            </svg>
+                        </div>
+                        <div class="about-stat-value">3+1</div>
+                        <div class="about-stat-label">NIT Alumni &amp; IIT Alumni &amp; CA</div>
+                    </div>
+                    <div class="about-stat reveal">
+                        <div class="about-stat-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <polyline points="4,14 8,10 11,13 16,8 20,11 24,7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                <path d="M4 22H24" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <div class="about-stat-value">20+</div>
+                        <div class="about-stat-label">Projects delivered across industries</div>
+                    </div>
+                    <div class="about-stat reveal">
+                        <div class="about-stat-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="14" r="9" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                <path d="M10 14.5C10 14.5 11.5 17 14 17C16.5 17 18 14.5 18 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                                <circle cx="11" cy="11.5" r="1" fill="currentColor"/>
+                                <circle cx="17" cy="11.5" r="1" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="about-stat-value">10+</div>
+                        <div class="about-stat-label">Happy clients and growing</div>
+                    </div>
+                    <div class="about-stat reveal">
+                        <div class="about-stat-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <path d="M14 4L16 10H22L17.5 13.8L19.5 20L14 16.5L8.5 20L10.5 13.8L6 10H12L14 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+                            </svg>
+                        </div>
+                        <div class="about-stat-value">Countless</div>
+                        <div class="about-stat-label">Ideas, conversations &amp; cups of chai ☕</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── What's Next ───────────────────────────────────────────────── -->
+        <section class="section about-next" id="about-next" aria-labelledby="next-heading">
+            <div class="container">
+                <div class="about-next-grid">
+                    <div class="about-next-copy" data-stagger="80">
+                        <p class="eyebrow reveal">What's Next</p>
+                        <h2 class="section-heading reveal" id="next-heading">
+                            Bigger Problems.<br>
+                            Better Solutions.<br>
+                            <em style="color: var(--color-signal); font-style: italic;">Stronger Impact.</em>
+                        </h2>
+                        <p class="text-body reveal" style="max-width: 48ch;">
+                            We're focused on building scalable products, deepening our technology stack, and helping businesses unlock their full potential.
+                        </p>
+                    </div>
+                    <div class="about-next-cards" data-stagger="100">
+                        <div class="about-next-card reveal">
+                            <div class="about-next-card-icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <rect x="3" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <rect x="13" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <rect x="3" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <rect x="13" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                            </div>
+                            <span>Build our own products</span>
+                        </div>
+                        <div class="about-next-card reveal">
+                            <div class="about-next-card-icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+                                    <path d="M12 3C12 3 9 7 9 12C9 17 12 21 12 21" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M12 3C12 3 15 7 15 12C15 17 12 21 12 21" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </div>
+                            <span>Expand our global footprint</span>
+                        </div>
+                        <div class="about-next-card reveal">
+                            <div class="about-next-card-icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M6 12C6 12 8 8 12 8C16 8 18 12 18 12C18 12 16 16 12 16C8 16 6 12 6 12Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="12" cy="12" r="2.5" fill="currentColor"/>
+                                    <path d="M5 7L4 5M19 7L20 5M5 17L4 19M19 17L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <span>Partner with bold businesses</span>
+                        </div>
+                        <div class="about-next-card reveal">
+                            <div class="about-next-card-icon" aria-hidden="true">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M17 21V19C17 16.8 15.2 15 13 15H5C2.8 15 1 16.8 1 19V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                                    <circle cx="9" cy="9" r="4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M23 21V19C23 17.1 21.7 15.5 20 15.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <path d="M16 3.1C17.7 3.5 19 5.1 19 7C19 8.9 17.7 10.5 16 10.9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <span>Create a workplace we're proud of</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Closing line -->
+                <div class="about-closing reveal">
+                    <div class="about-closing-line" aria-hidden="true"></div>
+                    <p class="about-closing-text">
+                        <em>The best is ahead.</em>
+                    </p>
+                    <div class="about-closing-line" aria-hidden="true"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── CTA Banner ─────────────────────────────────────────────────── -->
+        <section class="section cta-banner" aria-labelledby="about-cta-heading">
+            <div class="container" data-stagger="80">
+                <p class="eyebrow reveal">Let's build something</p>
+                <h2 class="section-heading reveal" id="about-cta-heading">One studio. Every problem solved.</h2>
+                <p class="text-body reveal">From code to campaigns — we're the team that handles both, so you don't have
+                    to stitch together five different agencies.</p>
+                <div class="hero-actions reveal" style="justify-content:center;margin-top:var(--space-10)">
+                    <a class="btn-secondary" href="./contact.html" id="cta-contact">Work with us →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Site footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">FyveUnc Labs</div>
+                    <p class="text-body footer-muted">FyveUnc Labs is the trade name of Mariana Trench Private Limited.
+                        We build software. We grow brands. We solve real problems.</p>
+                </div>
+                <div>
+                    <div class="footer-label">Company</div>
+                    <ul class="footer-links">
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./work.html">Work</a></li>
+                        <li><a href="./contact.html">Careers</a></li>
+                        <li><a href="./contact.html">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-label">Services</div>
+                    <ul class="footer-links">
+                        <li><a href="./services.html">Software Development</a></li>
+                        <li><a href="./services.html">Digital Marketing</a></li>
+                        <li><a href="./services.html">Product Engineering</a></li>
+                        <li><a href="./services.html">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-label">Let's Connect</div>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hello@fyveunclabs.com">hello@fyveunclabs.com</a></li>
+                        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+                        <li>India</li>
+                    </ul>
+                    <div class="footer-label" style="margin-top: var(--space-6);">Follow Us</div>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social-link" aria-label="LinkedIn">in</a>
+                        <a href="#" class="footer-social-link" aria-label="Instagram">𝕀</a>
+                        <a href="#" class="footer-social-link" aria-label="Twitter/X">𝕏</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 Mariana Trench Private Limited. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
