@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — FyveUnc Labs</title>
+    <meta name="description" content="Start a project with FyveUnc Labs. Tell us about your goals and timeline — we respond within two business days." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Syne:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <div class="nav-mobile-overlay" id="mobile-menu" aria-hidden="true">
+        <a class="nav-mobile-link" href="./work.html">Work</a>
+        <a class="nav-mobile-link" href="./services.html">Services</a>
+        <a class="nav-mobile-link" href="./contact.html">Contact</a>
+        <a class="btn-primary" href="./contact.html" style="width:fit-content;margin-top:auto">Start a project →</a>
+    </div>
+
+    <nav class="nav scrolled" id="nav">
+        <a class="nav-logo" href="./index.html" aria-label="FyveUnc Labs home">
+            <span>Fy</span><span class="logo-v">v</span><span>eUnc</span>
+            <span class="logo-labs">Labs</span>
+        </a>
+        <div class="nav-links" aria-label="Primary navigation">
+            <a class="nav-link" href="./work.html">Work</a>
+            <a class="nav-link" href="./services.html">Services</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+        </div>
+        <a class="btn-primary nav-cta" href="./contact.html">Start a project</a>
+        <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+            <span class="nav-hamburger-line"></span>
+            <span class="nav-hamburger-line"></span>
+            <span class="nav-hamburger-line"></span>
+        </button>
+    </nav>
+
+    <main class="page-standard">
+        <section class="section" aria-labelledby="contact-heading">
+            <div class="container" data-stagger="80">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-20);align-items:start" class="contact-layout">
+                    <div>
+                        <p class="eyebrow reveal">Contact</p>
+                        <h1 class="section-heading reveal" id="contact-heading">Ready to build something smooth?</h1>
+                        <p class="text-body reveal">Tell us about your goals, timeline, and what success looks like. We respond within two business days.</p>
+
+                        <div style="margin-top:var(--space-12);display:grid;gap:var(--space-6)" class="reveal">
+                            <div style="display:flex;gap:var(--space-4);align-items:flex-start">
+                                <div class="feature-icon" style="flex-shrink:0;margin-bottom:0">⚡</div>
+                                <div>
+                                    <div style="font-family:var(--font-sans);font-weight:700;font-size:var(--text-base);margin-bottom:4px">Fast response</div>
+                                    <p class="text-body" style="font-size:var(--text-sm)">We reply within 2 business days, usually faster.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex;gap:var(--space-4);align-items:flex-start">
+                                <div class="feature-icon" style="flex-shrink:0;margin-bottom:0">🎯</div>
+                                <div>
+                                    <div style="font-family:var(--font-sans);font-weight:700;font-size:var(--text-base);margin-bottom:4px">No fluff</div>
+                                    <p class="text-body" style="font-size:var(--text-sm)">You'll get a clear proposal, not a sales pitch.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex;gap:var(--space-4);align-items:flex-start">
+                                <div class="feature-icon" style="flex-shrink:0;margin-bottom:0">🔒</div>
+                                <div>
+                                    <div style="font-family:var(--font-sans);font-weight:700;font-size:var(--text-base);margin-bottom:4px">NDA available</div>
+                                    <p class="text-body" style="font-size:var(--text-sm)">We take confidentiality seriously from day one.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reveal">
+                        <form class="contact-form" id="contact-form" novalidate style="margin-top:0">
+                            <div class="field-row">
+                                <label class="field-label" for="contact-name">Name</label>
+                                <input id="contact-name" name="name" class="field" placeholder="Your name" autocomplete="name" required />
+                            </div>
+                            <div class="field-row">
+                                <label class="field-label" for="contact-email">Email</label>
+                                <input id="contact-email" name="email" type="email" class="field"
+                                    placeholder="email@domain.com" autocomplete="email" required />
+                            </div>
+                            <div class="field-row">
+                                <label class="field-label" for="contact-company">Company</label>
+                                <input id="contact-company" name="company" class="field" placeholder="Company or brand" autocomplete="organization" />
+                            </div>
+                            <div class="field-row">
+                                <label class="field-label" for="contact-message">Message</label>
+                                <textarea id="contact-message" name="message" class="field" rows="5"
+                                    placeholder="What do you want built?" required></textarea>
+                            </div>
+                            <div class="contact-actions">
+                                <button class="btn-primary" type="submit" id="contact-submit">Send inquiry →</button>
+                                <span style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--color-ember);letter-spacing:0.06em">Usually replies in &lt; 48h</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Site footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">FyveUnc Labs</div>
+                    <p class="text-body footer-muted">Talk to us about your next launch.</p>
+                </div>
+                <div>
+                    <div class="footer-label">Company</div>
+                    <ul class="footer-links">
+                        <li><a href="./work.html">Work</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-label">Contact</div>
+                    <ul class="footer-links">
+                        <li>hello@fyveunclabs.com</li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-label">Newsletter</div>
+                    <form class="footer-form" id="newsletter-form" novalidate>
+                        <input class="footer-input" type="email" placeholder="you@email.com" aria-label="Email address" id="newsletter-email">
+                        <button class="btn-primary" type="submit" id="newsletter-submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 FyveUnc Labs</span>
+                <span>All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+    <style>
+        @media (max-width: 768px) {
+            .contact-layout {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</body>
+
+</html>

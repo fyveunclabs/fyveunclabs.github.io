@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>FyveUnc Labs — Tech & Marketing Studio</title>
+    <meta name="description"
+        content="FyveUnc Labs is a full-service tech and marketing studio. We build software, apps, and digital products — and we grow them with strategy, content, and performance marketing." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Syne:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="theme-hero">
+    <!-- Scroll progress indicator -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Mobile menu overlay -->
+    <div class="nav-mobile-overlay" id="mobile-menu" aria-hidden="true">
+        <a class="nav-mobile-link" href="./work.html">Work</a>
+        <a class="nav-mobile-link" href="./services.html">Services</a>
+        <a class="nav-mobile-link" href="./contact.html">Contact</a>
+        <a class="btn-primary" href="./contact.html" style="width:fit-content;margin-top:auto">Start a project →</a>
+    </div>
+
+    <nav class="nav" id="nav">
+        <a class="nav-logo" href="./index.html" aria-label="FyveUnc Labs home">
+            <span>Fy</span><span class="logo-v">v</span><span>eUnc</span>
+            <span class="logo-labs">Labs</span>
+        </a>
+        <div class="nav-links" aria-label="Primary navigation">
+            <a class="nav-link" href="./work.html">Work</a>
+            <a class="nav-link" href="./services.html">Services</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+        </div>
+        <a class="btn-primary nav-cta" href="./contact.html">Start a project</a>
+        <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"
+            aria-controls="mobile-menu">
+            <span class="nav-hamburger-line"></span>
+            <span class="nav-hamburger-line"></span>
+            <span class="nav-hamburger-line"></span>
+        </button>
+    </nav>
+
+    <main>
+        <!-- ── Hero ───────────────────────────────────────────────────────── -->
+        <section class="section hero-section" id="hero">
+            <div class="container hero-center" data-stagger="120">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow hero-eyebrow">Software — Made for everyone</p>
+                    <h1 class="hero-title">Software that works<br class="desktop-only"> as hard as
+                        <em style="color: var(--color-signal); font-style: italic;">you do.</em>
+                    </h1>
+                    <p class="hero-subtext">FyveUnc Labs builds solutions for ordinary people. From
+                        first click to long-term retention.</p>
+                    <div class="hero-actions">
+                        <a class="btn-primary" href="./contact.html" id="hero-cta">Start your project →</a>
+                        <a class="btn-secondary" href="./services.html" id="hero-secondary">See how it works</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Social Proof Ticker ────────────────────────────────────────── -->
+        <div class="social-proof-bar" aria-label="Key metrics">
+            <div class="social-proof-track" aria-hidden="true">
+                <span>Full-stack development</span>
+                <span>Performance marketing</span>
+                <span>Shipped 80+ products</span>
+                <span>SEO & paid media</span>
+                <span>Brand & content strategy</span>
+                <span>Trusted by 150+ businesses</span>
+                <!-- duplicate for seamless loop -->
+                <span>Full-stack development</span>
+                <span>Performance marketing</span>
+                <span>Shipped 80+ products</span>
+                <span>SEO & paid media</span>
+                <span>Brand & content strategy</span>
+                <span>Trusted by 150+ businesses</span>
+            </div>
+        </div>
+
+        <!-- ── Feature 01 ─────────────────────────────────────────────────── -->
+        <section class="section" aria-labelledby="feature1-heading">
+            <div class="container" data-stagger="80">
+                <p class="eyebrow reveal">What we do</p>
+                <h2 class="section-heading reveal" id="feature1-heading">Tech and marketing, built to work together.
+                </h2>
+
+                <!-- Row 1 -->
+                <div class="feature-row grid-feature">
+                    <div class="feature-copy reveal">
+                        <h3 class="feature-heading">Products that are fast, scalable, and beautiful.</h3>
+                        <p class="text-body">From full-stack web apps to mobile experiences, we engineer software that
+                            performs under pressure and delights the people using it. Clean architecture, modern stacks,
+                            pixel-perfect UIs.</p>
+                        <a class="feature-link" href="./services.html">See our dev work</a>
+                    </div>
+                    <div class="feature-visual reveal">
+                        <div class="feature-visual-inner">
+                            <div class="mock-ui-header">
+                                <div class="mock-ui-dot"></div>
+                                <div class="mock-ui-dot"></div>
+                                <div class="mock-ui-dot"></div>
+                            </div>
+                            <div class="mock-ui-bar accent"></div>
+                            <div class="mock-ui-bar medium" style="margin-top:var(--space-3)"></div>
+                            <div class="mock-ui-bar short"></div>
+                            <div class="mock-tags" style="margin-top:var(--space-4)">
+                                <span class="mock-tag">React / Next.js</span>
+                                <span class="mock-tag">Node.js</span>
+                                <span class="mock-tag">Cloud</span>
+                            </div>
+                            <div style="display:flex;gap:var(--space-3);margin-top:var(--space-6)">
+                                <div
+                                    style="flex:1;height:60px;border-radius:var(--radius-lg);background:linear-gradient(135deg,var(--color-signal-08),var(--color-void-04));border:1px solid var(--color-rule)">
+                                </div>
+                                <div
+                                    style="flex:1;height:60px;border-radius:var(--radius-lg);background:linear-gradient(135deg,var(--color-signal-15),var(--color-signal-05));border:1px solid var(--color-signal-15)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="feature-row grid-feature reverse">
+                    <div class="feature-copy reveal">
+                        <h3 class="feature-heading">Marketing that generates real pipeline.</h3>
+                        <p class="text-body">Strategy, content, and paid media — all wired to your funnel. We run
+                            campaigns that acquire the right customers, at the right cost, and track every dollar back
+                            to revenue.</p>
+                        <a class="feature-link" href="./services.html">Explore growth services</a>
+                    </div>
+                    <div class="feature-visual reveal">
+                        <div class="feature-visual-inner">
+                            <div class="mock-ui-header">
+                                <div class="mock-ui-dot"></div>
+                                <div class="mock-ui-dot"></div>
+                                <div class="mock-ui-dot"></div>
+                            </div>
+                            <div class="mock-flow">
+                                <div class="mock-flow-step done">
+                                    <div class="mock-flow-num">✓</div>
+                                    <div class="mock-flow-text">Audience & funnel mapped</div>
+                                </div>
+                                <div class="mock-flow-step done">
+                                    <div class="mock-flow-num">✓</div>
+                                    <div class="mock-flow-text">Campaigns launched</div>
+                                </div>
+                                <div class="mock-flow-step done">
+                                    <div class="mock-flow-num">✓</div>
+                                    <div class="mock-flow-text">Leads captured & nurtured</div>
+                                </div>
+                                <div class="mock-flow-step">
+                                    <div class="mock-flow-num"
+                                        style="border:1px solid var(--color-rule);background:transparent;color:var(--color-ember)">
+                                        4</div>
+                                    <div class="mock-flow-text" style="color:var(--color-rule-strong)">Optimising for
+                                        lower CPA…</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="feature-row grid-feature">
+                    <div class="feature-copy reveal">
+                        <h3 class="feature-heading">Data that connects dev and marketing.</h3>
+                        <p class="text-body">We instrument your product and campaigns with the same analytics layer — so
+                            every feature decision and every ad spend is grounded in what's actually happening.</p>
+                        <a class="feature-link" href="./services.html">View analytics work</a>
+                    </div>
+                    <div class="feature-visual reveal">
+                        <div class="feature-visual-inner">
+                            <div class="mock-ui-header">
+                                <div class="mock-ui-dot"></div>
+                                <div class="mock-ui-dot"></div>
+                                <div class="mock-ui-dot"></div>
+                            </div>
+                            <div class="mock-stat-row" style="margin-bottom:var(--space-3)">
+                                <span class="mock-stat-label">Monthly Leads</span>
+                                <span class="mock-stat-value">3,840</span>
+                            </div>
+                            <div class="mock-stat-row">
+                                <span class="mock-stat-label">Conversion Rate</span>
+                                <span class="mock-stat-value" style="color:var(--color-signal)">4.7%</span>
+                            </div>
+                            <div class="mock-chart" style="margin-top:var(--space-6)">
+                                <div class="mock-chart-bar" style="height:40%"></div>
+                                <div class="mock-chart-bar" style="height:55%"></div>
+                                <div class="mock-chart-bar" style="height:62%"></div>
+                                <div class="mock-chart-bar" style="height:75%"></div>
+                                <div class="mock-chart-bar active" style="height:88%"></div>
+                                <div class="mock-chart-bar active" style="height:96%"></div>
+                                <div class="mock-chart-bar active" style="height:100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Services Cards ──────────────────────────────────────────────── -->
+        <section class="section section-canvas" aria-labelledby="feature2-heading">
+            <div class="container" data-stagger="80">
+                <p class="eyebrow reveal">Our services</p>
+                <h2 class="section-heading reveal" id="feature2-heading">Everything a modern business needs to build and
+                    grow.</h2>
+                <div class="grid-3" data-stagger="100">
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">01</div>
+                        <h3 class="feature-heading">Web & App Development</h3>
+                        <p class="text-body">Full-stack web apps, marketing sites, e-commerce, and mobile. Built on
+                            modern frameworks and deployed to scale.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">02</div>
+                        <h3 class="feature-heading">UI/UX Design</h3>
+                        <p class="text-body">Research-backed design systems, prototypes, and interfaces that convert —
+                            crafted for both product and marketing.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">03</div>
+                        <h3 class="feature-heading">SEO & Content Strategy</h3>
+                        <p class="text-body">Technical SEO, keyword strategy, and content that earns authority and
+                            drives compounding organic traffic.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">04</div>
+                        <h3 class="feature-heading">Paid Media & Performance</h3>
+                        <p class="text-body">Google, Meta, and LinkedIn campaigns managed for ROAS. We write, test, and
+                            optimise — ruthlessly.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">05</div>
+                        <h3 class="feature-heading">Brand & Identity</h3>
+                        <p class="text-body">Positioning, naming, visual identity, and brand voice. Everything you need
+                            to show up with confidence.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">06</div>
+                        <h3 class="feature-heading">Automation & Integrations</h3>
+                        <p class="text-body">CRM setups, marketing automation, API integrations, and custom workflows
+                            that save your team hours every week.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Testimonial ────────────────────────────────────────────────── -->
+        <section class="section section-dark" aria-label="Customer quote">
+            <div class="container">
+                <div class="quote-stars reveal" aria-label="5 stars">★★★★★</div>
+                <p class="quote reveal">"FyveUnc Labs is the only team we've worked with that could ship our platform
+                    and run our growth marketing simultaneously. Revenue doubled in six months."</p>
+                <p class="quote-attribution reveal">Priya Menon — Co-founder & CEO, Stackly</p>
+            </div>
+        </section>
+
+
+        <!-- ── Pricing ────────────────────────────────────────────────────── -->
+        <section class="section" aria-labelledby="pricing-heading">
+            <div class="container" data-stagger="80">
+                <p class="eyebrow reveal">Engagements</p>
+                <h2 class="section-heading reveal" id="pricing-heading">Scoped around your goals, not a fixed menu.</h2>
+                <p class="text-body reveal" style="max-width:52ch;margin-bottom:var(--space-12)">Whether you need a
+                    single deliverable or a long-term partner across tech and marketing, we'll scope it honestly and get
+                    to work fast.</p>
+                <div class="pricing-grid">
+                    <article class="pricing-card reveal">
+                        <div class="pricing-badge">Build Sprint</div>
+                        <div class="pricing-price">Custom</div>
+                        <div class="pricing-interval">Scoped per project</div>
+                        <ul class="pricing-list">
+                            <li>Web app or marketing site</li>
+                            <li>UI/UX design included</li>
+                            <li>Deployed &amp; handed over</li>
+                        </ul>
+                        <a class="btn-secondary" href="./contact.html" id="pricing-brand">Get a quote</a>
+                    </article>
+                    <article class="pricing-card featured reveal">
+                        <div class="pricing-badge">Tech + Growth</div>
+                        <div class="pricing-price">Custom</div>
+                        <div class="pricing-interval">Scoped per project</div>
+                        <ul class="pricing-list">
+                            <li>Product build end-to-end</li>
+                            <li>SEO, paid media &amp; content</li>
+                            <li>Analytics &amp; reporting</li>
+                        </ul>
+                        <a class="btn-primary" href="./contact.html" id="pricing-product">Start the conversation</a>
+                    </article>
+                    <article class="pricing-card reveal">
+                        <div class="pricing-badge">Ongoing Partner</div>
+                        <div class="pricing-price">Custom</div>
+                        <div class="pricing-interval">Monthly retainer</div>
+                        <ul class="pricing-list">
+                            <li>Dedicated dev &amp; marketing hours</li>
+                            <li>Continuous iteration</li>
+                            <li>Priority response</li>
+                        </ul>
+                        <a class="btn-secondary" href="./contact.html" id="pricing-retainer">Get a quote</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── CTA Banner ─────────────────────────────────────────────────── -->
+        <section class="section cta-banner" aria-labelledby="cta-heading">
+            <div class="container" data-stagger="80">
+                <p class="eyebrow reveal">Let's build something</p>
+                <h2 class="section-heading reveal" id="cta-heading">One studio. Every problem solved.</h2>
+                <p class="text-body reveal">From code to campaigns — we're the team that handles both, so you don't have
+                    to stitch together five different agencies.</p>
+                <div class="hero-actions reveal" style="justify-content:center;margin-top:var(--space-10)">
+                    <a class="btn-secondary" href="./contact.html" id="cta-contact">Work with us →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Site footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">FyveUnc Labs</div>
+                    <p class="text-body footer-muted">Tech studio and marketing partner for businesses that refuse to
+                        compromise on either.</p>
+                </div>
+                <div>
+                    <div class="footer-label">Company</div>
+                    <ul class="footer-links">
+                        <li><a href="./work.html">Work</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-label">Resources</div>
+                    <ul class="footer-links">
+                        <li><a href="./services.html">Pricing</a></li>
+                        <li><a href="./work.html">Case studies</a></li>
+                        <li><a href="./contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-label">Newsletter</div>
+                    <form class="footer-form" id="newsletter-form" novalidate>
+                        <input class="footer-input" type="email" placeholder="you@email.com" aria-label="Email address"
+                            id="newsletter-email">
+                        <button class="btn-primary" type="submit" id="newsletter-submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 FyveUnc Labs</span>
+                <span>All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

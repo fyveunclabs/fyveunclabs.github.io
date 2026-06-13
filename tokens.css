@@ -1,0 +1,122 @@
+/* FyveUnc Labs brand tokens */
+:root {
+  /* Brand colors */
+  --color-void: #1A1816;
+  --color-ember: #4A4540;
+  --color-signal: #F97B3B;
+  --color-signal-dark: #E06926;
+  --color-signal-light: #FFAB7A;
+  --color-glow: #FDEEE5;
+  --color-canvas: #F9F7F4;
+  --color-canvas-95: rgba(249, 247, 244, 0.95);
+  --color-white: #FFFFFF;
+  --color-rule: rgba(30, 28, 26, 0.10);
+  --color-rule-strong: rgba(30, 28, 26, 0.20);
+  --color-transparent: transparent;
+  --color-void-04: rgba(26, 24, 22, 0.04);
+  --color-void-05: rgba(26, 24, 22, 0.05);
+  --color-void-08: rgba(26, 24, 22, 0.08);
+  --color-signal-05: rgba(249, 123, 59, 0.05);
+  --color-signal-08: rgba(249, 123, 59, 0.08);
+  --color-signal-15: rgba(249, 123, 59, 0.15);
+  --color-signal-20: rgba(249, 123, 59, 0.20);
+  --color-signal-30: rgba(249, 123, 59, 0.30);
+  --color-white-80: rgba(255, 255, 255, 0.80);
+  --color-white-75: rgba(255, 255, 255, 0.75);
+  --color-white-70: rgba(255, 255, 255, 0.70);
+  --color-white-60: rgba(255, 255, 255, 0.60);
+  --color-white-20: rgba(255, 255, 255, 0.20);
+  --color-white-15: rgba(255, 255, 255, 0.15);
+  --color-white-12: rgba(255, 255, 255, 0.12);
+  --color-white-10: rgba(255, 255, 255, 0.10);
+  --color-white-08: rgba(255, 255, 255, 0.08);
+  --color-white-05: rgba(255, 255, 255, 0.05);
+
+  /* Typography */
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'Syne', system-ui, sans-serif;
+  --font-mono: 'DM Mono', 'Courier New', monospace;
+
+  /* Type scale */
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-base: 14px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --text-xl: 28px;
+  --text-2xl: 40px;
+  --text-3xl: 56px;
+  --text-4xl: 72px;
+  --text-hero: clamp(52px, 8vw, 96px);
+
+  /* Spacing (4px base unit) */
+  --space-0-25: 1px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Radii */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-pill: 100px;
+
+  /* Borders */
+  --border-thin: 1px;
+  --border-medium: 1.5px;
+  --border-accent: 3px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 3px rgba(26, 24, 22, 0.06), 0 1px 2px rgba(26, 24, 22, 0.04);
+  --shadow-sm: 0 2px 8px rgba(26, 24, 22, 0.08), 0 1px 3px rgba(26, 24, 22, 0.05);
+  --shadow-md: 0 4px 20px rgba(26, 24, 22, 0.10), 0 2px 8px rgba(26, 24, 22, 0.06);
+  --shadow-lg: 0 8px 40px rgba(26, 24, 22, 0.12), 0 4px 16px rgba(26, 24, 22, 0.08);
+  --shadow-xl: 0 16px 64px rgba(26, 24, 22, 0.16), 0 8px 24px rgba(26, 24, 22, 0.10);
+  --shadow-signal: 0 8px 32px rgba(249, 123, 59, 0.25), 0 2px 8px rgba(249, 123, 59, 0.15);
+  --shadow-signal-sm: 0 4px 16px rgba(249, 123, 59, 0.20);
+
+  /* Letter spacing */
+  --tracking-tighter: -2px;
+  --tracking-tight: -1px;
+  --tracking-small: 0.02em;
+  --tracking-medium: 0.12em;
+  --tracking-wide: 0.18em;
+  --tracking-footer: 0.14em;
+
+  /* Layout */
+  --max-width: 1200px;
+  --max-width-text: 680px;
+  --max-width-quote: 800px;
+  --gutter: clamp(24px, 5vw, 80px);
+  --section-gap: clamp(80px, 12vw, 160px);
+
+  /* Effects */
+  --blur-sm: 4px;
+  --blur-md: 12px;
+  --blur-lg: 24px;
+  --bg-spot-1-width: 1200px;
+  --bg-spot-1-height: 600px;
+  --bg-spot-2-width: 900px;
+  --bg-spot-2-height: 500px;
+
+  /* Animation */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-sine: cubic-bezier(0.37, 0, 0.63, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+  --duration-reveal: 700ms;
+}
