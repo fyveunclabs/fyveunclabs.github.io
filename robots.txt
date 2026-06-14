@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/db.html
+# Allow all search engine crawlers to crawl all pages
+User-agent: *
+Allow: /
+
+# Exclude potential backup or developer-only files if any
+Disallow: /*.md$
+Disallow: /*.json$
+
+# Link directly to sitemap.xml
+Sitemap: https://fyveunclabs.com/sitemap.xml
