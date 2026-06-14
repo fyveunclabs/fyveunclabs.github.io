@@ -8,4 +8,4 @@ Disallow: /*.md$
 Disallow: /*.json$
 
 # Link directly to sitemap.xml
-Sitemap: https://fyveunclabs.com/sitemap.xml
+Sitemap: https://fyveunc.com/sitemap.xml

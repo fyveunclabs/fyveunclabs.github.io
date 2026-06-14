@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fyveunclabs.com/</loc>
+    <loc>https://fyveunc.com/</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://fyveunclabs.com/about.html</loc>
+    <loc>https://fyveunc.com/about.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://fyveunclabs.com/services.html</loc>
+    <loc>https://fyveunc.com/services.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://fyveunclabs.com/work.html</loc>
+    <loc>https://fyveunc.com/work.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://fyveunclabs.com/contact.html</loc>
+    <loc>https://fyveunc.com/contact.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
